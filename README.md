@@ -1,4 +1,4 @@
-# mern-e_commerce
+# MERN-E_Commerce
 
 # Lessions
 
@@ -25,3 +25,7 @@
    10. create route for /api/products
    11. return products
    12. run npm statrt
+7. Fetch Products From Backend
+   1. set proxy in package.json
+   2. npm install axios
+   3. use state, effect & reducer hook
