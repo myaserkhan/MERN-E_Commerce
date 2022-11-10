@@ -29,3 +29,7 @@
    1. set proxy in package.json
    2. npm install axios
    3. use state, effect & reducer hook
+8. Manage State By Reducer Hook
+   1. define reducer
+   2. update fetch data
+   3. get state from useReducer
