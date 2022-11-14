@@ -7,19 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.site-container {
+  min-height: 100vh;
+
+}
+
 main {
-  padding: 1rem;
-}
-
-header {
-  background-color: azure;
-  padding: 1rem;
-}
-
-header a {
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
+  flex: 1;
 }
 
 .products {
