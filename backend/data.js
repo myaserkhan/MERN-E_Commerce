@@ -1,54 +1,57 @@
 const data = {
   products: [
     {
-      name: 'Nice Slim Shirt',
+      _id: '1',
+      name: 'Nike Slim shirt',
       slug: 'nike-slim-shirt',
-      category: '',
-      image: '/images/p1.jpg', // 670px x 829px
+      category: 'Shirts',
+      image: '/images/p1.jpg', // 679px × 829px
       price: 120,
-      countStock: 10,
+      countInStock: 10,
       brand: 'Nike',
       rating: 4.5,
       numReviews: 10,
-      description: 'high quality shirt'
+      description: 'high quality shirt',
     },
     {
+      _id: '2',
       name: 'Adidas Fit Shirt',
-      slug: 'nike-fit-shirt',
-      category: '',
+      slug: 'adidas-fit-shirt',
+      category: 'Shirts',
       image: '/images/p2.jpg',
-      price: 120,
-      countStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
+      price: 250,
+      countInStock: 0,
+      brand: 'Adidas',
+      rating: 4.0,
       numReviews: 10,
-      description: 'high quality product'
+      description: 'high quality product',
     },
     {
-      name: 'Nike Slim Pants',
-      slug: 'nike-slim-pants',
-      category: '',
+      _id: '3',
+      name: 'Nike Slim Pant',
+      slug: 'nike-slim-pant',
+      category: 'Pants',
       image: '/images/p3.jpg',
-      price: 120,
-      countStock: 10,
+      price: 25,
+      countInStock: 15,
       brand: 'Nike',
       rating: 4.5,
-      numReviews: 10,
-      description: 'high quality product'
+      numReviews: 14,
+      description: 'high quality product',
     },
     {
-      name: 'Adidas Fit Pants',
-      slug: 'nike-fit-pants',
-      category: '',
+      _id: '4',
+      name: 'Adidas Fit Pant',
+      slug: 'adidas-fit-pant',
+      category: 'Pants',
       image: '/images/p4.jpg',
-      price: 120,
-      countStock: 10,
-      brand: 'Nike',
+      price: 65,
+      countInStock: 5,
+      brand: 'Puma',
       rating: 4.5,
       numReviews: 10,
-      description: 'high quality product'
-    }
-  ]
-}
-
-export default data
+      description: 'high quality product',
+    },
+  ],
+};
+export default data;

@@ -34,5 +34,24 @@
    2. update fetch data
    3. get state from useReducer
 9. Add bootsrap UI framework
-10. npm install react-bootstrap bootstrap
-    2.update App.js
+   1. npm install react-bootstrap bootstrap
+   2. update App.js
+10. Create Product and Rating Component
+    1. create Rating component
+    2. Create Product component
+    3. Use Rating component in Product component
+11. Create Product Details Screen
+    1.fetch product from backend
+    2.create 3 columns for image, info and action
+12. Create Loading and Message Component
+    1. create loading & message components
+    2. use spinner component
+    3. create utils.js to define getError function
+13. Implement Add To Cart
+    1. Create React context
+    2. define reducer
+    3. create store provider
+    4. implement add to cart button click handler
+14. Complete Add to Cart
+    1. check exist item in the cart
+    2. check count in stock in backend
